@@ -1,0 +1,468 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+    /*background: url('fond.png') no-repeat center fixed;*/
+    background-size: cover;
+    background-color: black;
+}
+
+.titre-page{
+    width: 30%;
+    color: #00FFFF;
+}
+
+.contenu{
+    color: aliceblue;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+}
+
+.entete{
+    background-color: rgba(128,128,128,0.2); /*rgba(0,255,255,0.8);*/
+    border: solid white 0px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    display: flex;    
+    justify-content: space-between;
+}
+.entete:hover {
+    box-shadow: 0 5px 8px 0 rgba(200,200,200,0.4);
+  }
+
+
+.portfolio{
+    width: 10%;
+    float: left;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+
+#lbl-search{
+    display: inline;
+    color: #808080;
+}
+#td-form{
+    width: 60px;
+}
+#td-heure{
+    width: 20px;
+}
+#td-separateur{
+    width: 10%;
+}
+#td-logo{
+    width: 10%;
+}
+#recherche-field{
+    height: 25px;
+    border: solid 1px turquoise;
+    border-radius: 8px;
+    background-color: #444242;
+    color: rgb(11, 11, 11);
+    display: inline;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+#frm-submit{
+    background-color: darkturquoise;
+    height: 25px;
+    border: solid 1px darkturquoise;
+    border-radius:8px;
+    color:rgb(24, 23, 23);
+    width:16%;
+    font-size: 11px;
+}
+.cadre-logo{
+    width: 80%;
+    float: right;
+    align-self: flex-end; /* Aligne à droite */
+    display: flex;
+    justify-content: space-between;
+    float: right;
+}
+table{
+    width: 100%;
+    align-self: flex-end;
+}
+.portfolio p{
+    background-color: black;
+    width: 15%;
+    height: 40px;
+    font-family: 'Oswald';
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    border-radius: 8px;
+    margin-left: 10px;
+    min-width: 120px;
+
+}
+
+.logo{
+    width: 30px;
+    height: 36px;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+.cercle{
+    display: flex;  
+    justify-content: space-between;
+    width: 50px;
+    height: 50px;
+    border: solid 1px black;
+    border-radius: 50px;
+    background-color: #000;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: max-content;
+    margin-bottom: 30px;
+}
+.titre-page{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+    height: max-content;
+}
+.nav{
+    width: 100%;
+    margin-right: 0px;
+    float: right;
+    font-size: large;
+    height: 50px;
+    font-size: 14px;
+    color: #808080;
+    font-family: 'Perpetua';
+    margin-top: 20px;
+}
+
+#heure{
+    color: turquoise;
+    font-size: 20px;
+}
+
+ul{
+    width: 100%;
+    list-style: none;
+    float: left;
+    padding: 5px;
+}
+
+
+li{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: #808080;
+    padding: 3px;
+    border-radius: 6px;
+}
+a:hover{
+    background-color: #00FFFF;
+    color: black;   
+}
+
+
+#photo{
+    width: 50%;
+    height: 55%;
+    margin-left: 30%;
+}
+
+.body{
+    background-color: rgba(128,128,128,0.2);
+    border: solid white 0px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    position: relative;
+}
+
+.body:hover {
+    box-shadow: 0 5px 8px 0 rgba(128,128,128,0.4);
+  }
+
+  .cadre-principal{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    width: 100%;
+    height: 300px;
+    
+  }
+
+
+.col-gauche{
+    width: 30%;
+    height: 300px;
+}
+
+.col-droit{
+    width: 70%;
+    height: 300px;
+    float: right;
+}
+
+.nom, .titre, .ligne, .description{
+    width: 60%;
+}
+
+.nom{
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.titre {
+    color: #00FFFF;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.ligne{
+    background-color: white;
+    height: 0px;
+    border-top: 0.1px solid white;
+}
+.description{
+    color: #E6E6E6;
+    border-left: solid 1px turquoise;
+    display: inline-block;
+    text-align: left;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.footer P{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#tel, #mail{
+    color: #D9E021;
+    font-size: 12px;
+    font-family: 'Oswald';
+}
+
+.footer p em{
+    color: white;
+    font-size: 14px;
+    font-family: 'Oswald';
+}
+
+.contact{
+    background-color: rgba(128,128,128,0.2);
+    border: solid white 0px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact p{
+    display: inline-block;
+    text-align: center;
+    margin-left: 35%;
+}
+
+.copy p{
+    color: #444242;
+    font-family: 'Oswald';
+    font-size: 11px;
+    display: inline-block;
+    text-align: center;
+}
+
+  .contact:hover {
+    box-shadow: 0 5px 8px 0 rgba(200,200,200,0.4);
+  }
+
+
+.description:hover{
+    font-size: 18px;
+}
+
+
+/*Adapte l'écran responsive*/
+@media screen and (max-width:720px){
+    .contenu{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .portfolio{
+        min-width: 150px;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    .entete{
+
+        height: max-content;
+    }
+    #recherche-field{
+        width: 30%;
+    }
+    #td-form{
+        width: 70%;
+    }
+    #frm-submit{
+        width: 28%;
+    }
+    #td-separateur{
+        width:10%;
+    }
+    #td-heure{
+        width: 20%;
+        margin-left: 10px;
+    }
+    #heure{
+        margin-top: 10x;
+        width: 20px;
+    }
+    #td-logo{
+        width: 20%;
+    }
+    .cadre-logo{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    li{
+        margin-left: 5px;
+
+        padding: 0px;
+
+    }
+    a{
+        padding: 2px;
+    }
+
+    .nav{
+        padding: 0px;
+        width: 100%;
+    }
+    .col-gauche{
+        width: 100%;
+        order: 1;
+        height: 150px;
+        margin-left: 20%;
+        margin-right: 20%;
+        
+    }
+
+    .col-droit{
+        width: 100%;
+        order: 2;
+        height: max-content;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .nom, .titre, .ligne, .description{
+        width: 80%;
+        text-align: center;
+    }
+    #photo{
+        margin-left: 30%;
+        width: 100px;
+        height: 120px;
+    }
+
+    .nom, .titre, .ligne, .description{
+        width: 100%;
+    }
+
+    .description{
+        color: #E6E6E6;
+        border-left: solid .5px turquoise;
+        display: inline-block;
+        text-align: left;
+        margin-top: 10px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+    .description :hover{
+        font-size: x-large;
+    }
+    .description:first-letter{
+        font-size: 30px;
+    }
+    .body{
+        padding: 0px;
+        height:max-content;
+    }
+    .cadre-principal{
+        padding: 0px;
+        height:max-content;  
+    }
+    .copy p{
+        min-width: 200px;
+        display: inline-block;
+        text-align: center;
+        padding: 0px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .contact{
+        width: 100%;
+        height: max-content;
+    }
+    .contact p{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+
+/*Cette partie est relative à l'animation de la description*/
+#texte {
+    width: 100%; /* Largeur du conteneur de texte */
+    border: 1px solid #000;
+    white-space: pre-wrap; /* Pour gérer les retours à la ligne */
+    overflow: hidden; /* Cacher le texte qui dépasse */
+}
+
+.mot {
+    display: inline-block; /* Pour que chaque mot soit sur une ligne */
+    opacity: 0; /* Masquer les mots initialement */
+    animation: apparaitre 0.5s forwards; /* Animation pour faire apparaître les mots */
+}
+
+@keyframes apparaitre {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+/* Fin de la partie qui concerne l'animation*/
